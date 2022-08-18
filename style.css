@@ -1,1 +1,60 @@
 
+html {
+    background-color: lightgoldenrodyellow;
+    height: 80vh;
+}
+.containerCenter{
+    display:flex;
+    justify-content: center;
+    height: 90vh;
+}
+.upperdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+h1{
+    color: darkolivegreen;
+    font-size: 3rem;
+}
+button{
+    background-color: olive;
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    grid-template-rows: repeat(3, 150px);
+}
+.playerInput{
+    display: grid;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.label{
+    color: darkolivegreen;
+    font-size: 2rem;
+}
+.blinker:hover{
+    background-color: rgb(255, 0, 0, 0.2);
+}
+.innerImg{
+    height: 100px;
+    width: 100px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border: 1px solid darkolivegreen;
+}
